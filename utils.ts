@@ -211,3 +211,17 @@ export function rectangle(name: string): LayerCommand {
 export function app(name: string): LayerCommand {
   return open(`-a '${name}.app'`);
 }
+
+/**
+ * Shortcut for "open" shell command
+ */
+export function openG(what: string): LayerCommand {
+  return {
+    to: [
+      {
+        shell_command: `open -g ${what}`,
+      },
+    ],
+    description: `Open ${what}`,
+  };
+}
