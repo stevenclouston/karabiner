@@ -74,7 +74,7 @@ const rules: KarabinerRules[] = [
       4: open("cursor://file//Users/steven/Dev/authsignal-server"),
       5: open("cursor://file//Users/steven/Dev/authsignal-infrastructure"),
       grave_accent_and_tilde: open("cursor://file//Users/steven/Dev/scratch"),
-      g: app("GitButler"),
+      g: app("Github Desktop"),
       c: app("Notion Calendar"),
       v: app("Cursor"),
       s: app("Slack"),

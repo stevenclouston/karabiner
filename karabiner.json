@@ -310,12 +310,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'GitButler.app'",
+                                "description": "Open -a 'Github Desktop.app'",
                                 "from": {
                                     "key_code": "g",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -a 'GitButler.app'" }],
+                                "to": [{ "shell_command": "open -a 'Github Desktop.app'" }],
                                 "type": "basic"
                             },
                             {
